@@ -50,8 +50,8 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
-  preload: false
+  enable: true
+  preload: true
   CDN:
 
 # Math (數學)
@@ -80,7 +80,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa9_9AjWTkeKzkn2aWnlXRDIxBcSYzAdxovA&usqp=CAU
   effect: false
 
 # Disable all banner image
@@ -153,7 +153,7 @@ post_meta:
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -177,7 +177,7 @@ anchor: false
 # toc (目錄)
 toc:
   post: true
-  page: false
+  page: true
   number: true
   expand: false
   style_simple: false # for post
@@ -421,9 +421,9 @@ messenger:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2022
   custom_text:
-  copyright: true # Copyright of theme and framework
+  copyright: false # Copyright of theme and framework
 
 # Analysis
 # --------------------------------------
@@ -531,11 +531,11 @@ enter_transitions: true
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
+  click_to_change: true
   mobile: false
 
 # Fluttering Ribbon (動態彩帶)
@@ -616,7 +616,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Effect Speed Options (打字效果速度參數)
@@ -631,9 +631,11 @@ subtitle:
   # source: 2  調用一句網（簡體） http://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: true
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+    - 我知道你我都没有错，只是忘了怎么退后
+    - 信誓旦旦给了承诺，却被时间扑了空
 
 # Loading Animation (加載動畫)
 preloader: false
@@ -655,12 +657,12 @@ aside:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/xxxxxx
   card_announcement:
-    enable: true
+    enable: false
     content: This is my Blog
   card_recent_post:
     enable: true
@@ -693,15 +695,18 @@ aside:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
+  site_uv: false
+  site_pv: false
+  page_pv: false
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 9/1/2022 18:00:00
+  ##网页开通时间
+  #格式: 月/日/年 时间
+  #也可以写成 年/月/日 时间
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -756,7 +761,7 @@ rightside_item_order:
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
-medium_zoom: false
+medium_zoom: true
 
 # fancybox
 # http://fancyapps.com/fancybox/3/
@@ -887,6 +892,11 @@ CDN:
     # utils:
     # translate:
     # local_search:
+  local_search:
+    enable: true
+    labels:
+      input_placeholder: Search for Posts
+      hits_empty: "We didn't find any results for the search: ${query}" # 如果没有查到内容相关内容显示
     # algolia_js:
     # algolia_search_v4:
     # instantsearch_v4:
