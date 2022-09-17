@@ -6,6 +6,7 @@ categories:
 - Web前端
 cover: https://pic1.zhimg.com/v2-077a594b1a64d55e95de392755a8aa76_r.jpg?source=172ae18b
 ---
+<h3>协助进行页面级整体布局。Layout布局容器，其下可嵌套 Header Sider Content Footer 或 Layout 本身，可以放在任何父容器中。</h3>
 <h3>文档流</h3>
 ```HTML   
 <!DOCTYPE html>

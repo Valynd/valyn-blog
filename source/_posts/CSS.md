@@ -6,6 +6,8 @@ categories:
 - Web前端
 cover: https://pic1.zhimg.com/v2-077a594b1a64d55e95de392755a8aa76_r.jpg?source=172ae18b
 ---
+<h3>CSS是Cascading Style Sheets（层叠样式表单）的缩写，它是一种用来表现HTML或 XML 等文件式样的计算机语言。CSS的作用就是为网页设置外观，相
+当于给HTML文档穿上了华丽的衣服。</h3>
 <h3>CSS</h3>
 ```HTML   
 <!DOCTYPE html>
