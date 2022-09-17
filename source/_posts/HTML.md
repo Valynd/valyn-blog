@@ -4,7 +4,7 @@ date: 2022-09-17 17:43:31
 tags: HTML
 categories:
 - Web前端
-cover: https://pic1.zhimg.com/v2-077a594b1a64d55e95de392755a8aa76_r.jpg?source=172ae18b
+cover: https://img-baofun.zhhainiao.com/fs/bdefa3e64f854f7b16498b70a47bcf0a.jpg
 ---
 <h3>超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。HTML是一种基础技术，常与CSS、JavaScript
 一起被众多网站用于设计网页、网页应用程序以及移动应用程序的用户界面。网页浏览器可以读取HTML文件，并将其渲染成可视化网页。HTML描述了一个网站的结构

@@ -4,7 +4,7 @@ date: 2022-09-17 17:43:31
 tags: CSS
 categories:
 - Web前端
-cover: https://pic1.zhimg.com/v2-077a594b1a64d55e95de392755a8aa76_r.jpg?source=172ae18b
+cover: https://www.v2fy.com/asset/0i/jikemiji/jikemiji-md/kr-000063.assets/%E5%88%9D%E9%9F%B3%E6%9C%AA%E6%9D%A5.jpg
 ---
 <h3>CSS是Cascading Style Sheets（层叠样式表单）的缩写，它是一种用来表现HTML或 XML 等文件式样的计算机语言。CSS的作用就是为网页设置外观，相
 当于给HTML文档穿上了华丽的衣服。</h3>
@@ -68,7 +68,7 @@ cover: https://pic1.zhimg.com/v2-077a594b1a64d55e95de392755a8aa76_r.jpg?source=1
 </body>
 </html>
 ```
-<h3>css语法</h3>
+<h3>CSS语法</h3>
 ```HTML   
 <!DOCTYPE html>
 <html lang="en">

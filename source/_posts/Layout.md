@@ -4,7 +4,7 @@ date: 2022-09-17 17:43:31
 tags: CSS
 categories:
 - Web前端
-cover: https://pic1.zhimg.com/v2-077a594b1a64d55e95de392755a8aa76_r.jpg?source=172ae18b
+cover: https://img.win3000.com/m00/bf/f7/a3dbc7c75ed2768afae99747d33a5a70.jpg
 ---
 <h3>协助进行页面级整体布局。Layout布局容器，其下可嵌套 Header Sider Content Footer 或 Layout 本身，可以放在任何父容器中。</h3>
 <h3>文档流</h3>
