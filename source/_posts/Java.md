@@ -7,8 +7,8 @@ categories:
 cover: https://pic1.zhimg.com/v2-077a594b1a64d55e95de392755a8aa76_r.jpg?source=172ae18b
 ---
 
-<h2>Java 是由Sun Microsystems公司于1995年5月推出的Java面向对象程序设计语言和 Java平台的总称。由James Gosling和同
-事们共同研发，并在1995年正式推出。后来Sun公司被Oracle（甲骨文）公司收购，Java也随之成为 Oracle公司的产品。</h2>
+<h3>Java 是由Sun Microsystems公司于1995年5月推出的Java面向对象程序设计语言和 Java平台的总称。由James Gosling和同
+事们共同研发，并在1995年正式推出。后来Sun公司被Oracle（甲骨文）公司收购，Java也随之成为 Oracle公司的产品。</h3>
 
 
 

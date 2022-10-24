@@ -552,3 +552,168 @@ cover: https://img.win3000.com/m00/bf/f7/a3dbc7c75ed2768afae99747d33a5a70.jpg
 </html>
 ```
 
+<h3>默认样式</h3>
+```HTML   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 
+        导入通用的去除默认样式css，这里没有提供
+     -->
+    <link rel="stylesheet" href=""> 
+    <style>
+        /* 
+            默认样式:
+                -通常情况下,浏览器都会为浏览器设置默认的样式
+                -默认样式的存在会影响页面的布局
+                    通常情况下编写页面时必须去除网页的默认样式(PC端)
+        */
+
+        body{
+            margin: 0;
+        }
+
+        p{
+            margin: 0;
+        }
+
+        ul{
+            margin: 0;
+            padding: 0;
+            /* 去除项目符号 */
+             list-style: none; 
+         } 
+
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+
+        .box1{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+
+    <p>我是一个段落</p>
+    <p>我是一个段落</p>
+    <p>我是一个段落</p>
+    <p>我是一个段落</p>
+
+    <ul>
+        <li>列表1</li>
+        <li>列表2</li>
+        <li>列表3</li>
+    </ul>
+</body>
+</html>
+```
+
+<h3>盒子的尺寸</h3>
+```HTML   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: #baf;
+            padding: 10px;
+            border: 10px red solid;
+        
+        /* 
+            默认的情况下，盒子的可见框大小由内容区，内边距和边框共同决定
+
+                box-sizing用来设置盒子尺寸的计算方式（设置width和height的作用）
+                    可选值：
+                        content-box 默认值，宽度和高度用来设置内容区的大小
+                        border-box 宽度和高度用来设置整个盒子的大小
+                            width和heigth指的是内容区和内边距和边框的总大小
+        */
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+</body>
+</html>
+```
+
+<h3>轮廓和圆角</h3>
+```HTML   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+           width: 200px;
+           height: 200px;
+           background-color: #bfa; 
+
+           /* 
+                box-shadow用来设置元素的阴影效果，阴影不会影响页面的布局
+                第一个值 水平偏移量 设置阴影的水平位置 正值向右
+                第二个值 垂直偏移量 设置阴影的垂直位置 正值向下
+                第三个值 阴影的模糊半径
+                第四个值 阴影的颜色
+           */
+           box-shadow: 10px 10px 36px rgba(0, 0, 0, .3);
+            
+           border: 10px red solid;
+           /* outline: 10px red solid; */
+           /* 
+                outline用来设置元素的轮廓线，用法和border一样
+                    轮廓和边框不同的点，就是轮廓不会影响可见框的大小
+           */
+        }
+        
+        .box1:hover{
+            outline: 10px red solid;
+        }
+        
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: #baf;
+            border-radius: 50px  100px;
+            /* 
+                border-radius：用来设置圆角，圆角设置圆的半径
+                
+                border-top-left-radius: 50px 100px;
+                border-top-right-radius:
+                border-bottom-left-radius: 
+                border-bottom-right-radius: 
+
+                border-radius: 20px 50px;
+                border-radius: 20px / 50px;
+                两个是不一样的，第二个表示横向20 垂直50为半径的椭圆
+            */
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <span>hello</span>
+    <div class="box2"></div>
+</body>
+</html>
+```
+

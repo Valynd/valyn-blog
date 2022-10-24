@@ -7,9 +7,9 @@ categories:
 cover: https://pic1.zhimg.com/80/v2-a4ab7117cba24c41b826271bfd78fb6c_1440w.jpg?source=1940ef5c
 ---
 
-<h2>MySQL是一个关系型数据库管理系统，由瑞典MySQL AB 公司开发，属于 Oracle 旗下产品。MySQL 是最流行的关系型数据库管理系
+<h3>MySQL是一个关系型数据库管理系统，由瑞典MySQL AB 公司开发，属于 Oracle 旗下产品。MySQL 是最流行的关系型数据库管理系
 统之一，在 WEB 应用方面，MySQL是最好的 RDBMS (Relational Database Management System，关系数据库管理系统) 应用软
-件之一。</h2>
+件之一。</h3>
 
 
 <!doctype html>
